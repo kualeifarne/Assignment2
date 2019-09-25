@@ -1,0 +1,299 @@
+.header {
+    height: 70px;
+    border-bottom: 2px solid black;
+}
+
+.pageName {
+    float: left;
+    margin-left: 10px;
+}
+
+.loginLink {
+    float: right;
+    margin-right: 10px;
+}
+
+.pageName, .loginLink {
+    font-size: 40px;
+    padding-top: 12.5px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: grey;
+}
+
+input {
+    height: 50px;
+    font-size: 30px;
+}
+
+.frontpageImg {
+    max-width: 100%;
+    max-height: 500px;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+
+
+.loginContainer {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.loginForm {
+     font-size: 30px;
+     width: 380px;
+     margin: auto;
+ }
+
+.loginBtn {
+    font-size: 30px;
+}
+
+.createUserLink {
+    float: right;
+}
+
+.loginh1 {
+    width: 300px;
+    margin: 50px auto;
+}
+
+.createUserContainer {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.createUserh1 {
+    width: 327px;
+    margin: 50px auto;
+}
+
+.createUserForm {
+    font-size: 30px;
+    width: 380px;
+    margin: auto;
+}
+
+.frontpageContainer {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.frontpageh1 {
+    padding-bottom: 50px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.frontpagePrice {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+#createListingBtn {
+    display: none;
+    font-size: 80px;
+    color: white;
+    background-color: forestgreen;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 4px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+.listingElement {
+    position: relative;
+    width: 45%;
+    list-style-type: none;
+    float: left;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    height: 650px;
+    margin-bottom: 40px;
+}
+
+.setBottom {
+    position: absolute;
+    bottom: 0px;
+}
+
+.listingPageImg {
+    vertical-align: middle;
+    max-height: 1000px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.slideshowContainer {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.imgSlide {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.captionText {
+    color: #f2f2f2;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+* {box-sizing:border-box}
+
+.listingPageContainer {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.listingPageh3 {
+    width: 480px;
+    font-size: 80px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.listingPagePrice {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.listingDescription {
+    font-size: 30px;
+}
+
+.contactBtn {
+    font-size: 40px;
+}
+
+.contactInfo {
+    font-size: 35px;
+    display: none;
+}
+
+.inputImages {
+    max-height: 300px;
+    padding: 10px;
+}
+
+.createListingContainer {
+    width: 800px;
+    margin: auto;
+}
+
+.createListingh1 {
+    width: 580px;
+    margin: 50px auto;
+
+}
+
+.formDiv {
+    width: 380px;
+    margin: auto;
+    font-size: 30px;
+}
+
+#imgInput {
+    border: 5px solid black;
+    min-height: 300px;
+    min-width: 700px;
+    margin: auto;
+}
+
+.deleteSelected, .deleteAll {
+    font-size: 30px;
+}

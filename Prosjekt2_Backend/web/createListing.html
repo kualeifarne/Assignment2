@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Oppdag</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body onload="setNameVariable()">
+        <div class="header">
+            <div class="pageName"><a href="/Prosjekt1_Frontend/.idea/src/frontpage.html">OPPDAG</a></div>
+            <div class="loginLink"><a href="/Prosjekt1_Frontend/.idea/src/login.html" class="linkLogin">Sign in</a></div>
+        </div>
+        <div class="createListingContainer">
+            <h1 class="createListingh1">Create listing</h1>
+            <form>
+                <div class="formDiv">
+                Title:<br>
+                <input type="text" name="title"><br>
+                Price:<br>
+                <input type="number" name="price"><br>
+                Description:<br>
+                <input type="text" name="description"><br>
+                <input type="file" name="img" class="imgInp" id="inp" multiple onchange="previewImages(this.files)"><br>
+                </div>
+                <div id="imgInput"></div>
+                <button type="button" class="deleteSelected">Delete selected</button>
+                <button type="button" class="deleteAll" onclick="deleteAll()">Delete all</button>
+            </form>
+        </div>
+        <script>
+
+        </script>
+    </body>
+</html>

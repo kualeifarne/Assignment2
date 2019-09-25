@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Oppdag</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body onload="setNameVariable()">
+        <div class="header">
+            <div class="pageName"><a href="/Prosjekt1_Frontend/.idea/src/frontpage.html">OPPDAG</a></div>
+            <div class="loginLink"><a href="/Prosjekt1_Frontend/.idea/src/login.html" class="linkLogin">Sign in</a></div>
+        </div>
+        <div class="loginContainer">
+            <h1 class="loginh1">Sign in</h1>
+            <form class="loginForm">
+                Username:<br>
+                <div>
+                    <input type="text" name="username" id="username"><br>
+                </div>
+                Password:<br>
+                <input type="password" name="password"><br>
+                <button onclick="setName()" type="button" class="loginBtn">Login</button>
+                <a class="createUserLink" href="/Prosjekt1_Frontend/.idea/src/createUser.html">Sign up</a>
+            </form>
+        </div>
+    </body>
+</html>

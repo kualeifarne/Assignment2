@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Prosjekt2_Backend:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Prosjekt2_Backend_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Prosjekt2_Backend/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Prosjekt2_Backend" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
